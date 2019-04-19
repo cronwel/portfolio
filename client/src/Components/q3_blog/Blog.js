@@ -3,7 +3,7 @@ import React from 'react';
 class Blog extends React.Component {
   render() {
     return (
-      <header>
+      <header className="headers">
         Blog
       </header> 
     )

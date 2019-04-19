@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
-import Nav from './Nav';
-import Bio from './Bio';
-import Blog from "./Blog";
-import Tools from './Tools';
-import Projects from './Projects';
+import Nav from './Components/Nav';
+import Bio from './Components/q1_bio/Bio';
+import Blog from "./Components/q3_blog/Blog";
+import Tools from './Components/q4_tools/Tools';
+import Projects from './Components/q2_projects/Projects';
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
+        <header className="App-header section">
         <Nav/>
         <Bio/>
         <Blog/>

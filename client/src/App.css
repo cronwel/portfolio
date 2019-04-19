@@ -31,3 +31,24 @@
   position: relative;
   text-align: left;
 }
+.headers {
+  font-family: Ailerons, sans-serif;
+}
+.q1{
+ border: 2px solid black;
+}
+
+.q2{
+
+}
+.q3 {
+
+}
+.q4 {
+
+}
+.section {
+  width: 100vw;
+  height: 100vh;
+  border: 2px solid black;
+}

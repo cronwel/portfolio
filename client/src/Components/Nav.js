@@ -1,12 +1,11 @@
 import React from 'react';
-import './App.css';
 
 class Nav extends React.Component {
 render() {
     return (
         <nav className="nav_v1"> 
-            <ul>
-                <li>Bio</li>
+            <ul className="headers">
+                <li><a href="www.google.com">Bio</a></li>
                 <li>Projects</li>
                 <li>Interests</li>
                 <li>Blog</li>

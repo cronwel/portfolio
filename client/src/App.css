@@ -1,54 +1,107 @@
 .App {
+}
+/* ---------------------------------------
+----------------------------GRID CONTAINER
+--------------------------------------- */
+.container_grid {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+/* ---------------------------------------
+---------------------------------------BIO
+--------------------------------------- */
+.section_bio {
+  background: #FFFFFF;
+  border: 2px solid white;  
+}
+.section_bio header {
+  font-family: Ailerons;
+  font-size: 64px;
+  color: #FF0000;
+  letter-spacing: 0.4px;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+}
+.section_bio p {
+  font-family: Ailerons;
+  font-size: 24px;
+  color: #4A4A4A;
+  letter-spacing: 0.4px;
   text-align: center;
 }
 
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* ---------------------------------------
+-------------------------------Projects
+--------------------------------------- */
+.section_projects {
+  background: #FF0000;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.section_projects header {
+  font-family: Ailerons;
+  font-size: 64px;
+  color: #FFFFFF;
+  letter-spacing: 0.4px;
+  text-align: center;
+  text-shadow: 0 2px 5px #000000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.section_projects p {
+  font-family: Avenir;
+  font-size: 24px;
+  color: #FFFFFF;
+  letter-spacing: 0.09px;
+  text-align: center;
 }
 
-.nav_v1 {
-  position: relative;
-  text-align: left;
+/* ---------------------------------------
+-------------------------------------Tools
+--------------------------------------- */
+
+.section_tools {
+ background: #000000;
 }
-.headers {
-  font-family: Ailerons, sans-serif;
+.section_tools header {
+  font-family: Ailerons;
+  font-size: 64px;
+  color: #D8D8D8;
+  letter-spacing: 0.4px;
+  text-align: center;
+  text-shadow: 0 2px 4px #FF0000;
 }
-.q1{
- border: 2px solid black;
+.section_tools p {
+  font-family: Avenir;
+  font-size: 24px;
+  color: #FFFFFF;
+  letter-spacing: 0.09px;
+  text-align: center;
 }
 
-.q2{
-
+/* ---------------------------------------
+--------------------------------------Blog
+--------------------------------------- */
+.section_blog {
+  background: #D8D8D8;
 }
-.q3 {
 
+.section_blog header{
+  font-family: Ailerons;
+  font-size: 64px;
+  color: #000000;
+  letter-spacing: 0.4px;
+  text-align: center;
+  text-shadow: 2px 5px 11px #FFFFFF;
 }
-.q4 {
-
-}
-.section {
-  width: 100vw;
-  height: 100vh;
-  border: 2px solid black;
+.section_blog p {
+  font-family: Avenir;
+  font-size: 24px;
+  color: #000000;
+  letter-spacing: 0.09px;
+  text-align: center;
 }

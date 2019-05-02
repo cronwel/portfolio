@@ -4,12 +4,11 @@
 ----------------------------GRID CONTAINER
 --------------------------------------- */
 .container_grid {
-  display: inline-grid;
+  display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
   width: 100vw;
   height: 100vh;
-
 }
 
 /* ---------------------------------------
@@ -17,11 +16,11 @@
 --------------------------------------- */
 .section_bio {
   background: #FFFFFF;
-  border: 2px solid white;  
+  text-align: center;
 }
 .section_bio header {
   font-family: Ailerons;
-  font-size: 64px;
+  font-size: 48px;
   color: #FF0000;
   letter-spacing: 0.4px;
   text-align: center;
@@ -45,7 +44,7 @@
 
 .section_projects header {
   font-family: Ailerons;
-  font-size: 64px;
+  font-size: 48px;
   color: #FFFFFF;
   letter-spacing: 0.4px;
   text-align: center;
@@ -69,7 +68,7 @@
 }
 .section_tools header {
   font-family: Ailerons;
-  font-size: 64px;
+  font-size: 48px;
   color: #D8D8D8;
   letter-spacing: 0.4px;
   text-align: center;
@@ -92,11 +91,12 @@
 
 .section_blog header{
   font-family: Ailerons;
-  font-size: 64px;
+  font-size: 48px;
   color: #000000;
   letter-spacing: 0.4px;
   text-align: center;
-  text-shadow: 2px 5px 11px #FFFFFF;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+
 }
 .section_blog p {
   font-family: Avenir;

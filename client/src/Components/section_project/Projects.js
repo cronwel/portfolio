@@ -5,7 +5,8 @@ render() {
     return(
         <section className="section_projects">
         <header >Projects</header>
-        <p> I dabble in code</p>
+        <p>GymCal</p>
+        <p>SimDHR</p>
         </section>
     )
   }

@@ -20,18 +20,23 @@ class Blog extends React.Component {
     })
     .catch(error => console.log(error))
   };
-
+  
   render() {
     return (
       <section className="section_blog">
         <header >Blog</header>
-          <p> I dabble in code</p>
-          <p>GymCal</p>
-          <p>SimDHR</p>
-          <p></p>
           <Post />
+          {this.state.posts.map(post => {
+            return (
+
+              <div className="article" key={post.id} >
+              <h4> {post.title}  </h4>
+              <p> {post.content}</p>
+              </div>
+            )
+          }
+          )}
       </section>
-     
     )
   }
 }

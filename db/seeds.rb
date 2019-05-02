@@ -5,3 +5,5 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Post.create(title:"West Sweden Road Trip", content:"A cool road trip with stops in harbors of the coast")
+Post.create(title:"Must have equipment for the outdoor photographer", content:"My selection of gear for modern outdoor photography")

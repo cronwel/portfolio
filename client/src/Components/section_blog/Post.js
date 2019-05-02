@@ -4,7 +4,6 @@ class Post extends React.Component {
   render() {
   return (
     <div className="post">
-      this is something, hey it works?\!
     </div>
     )
   }

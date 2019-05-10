@@ -24,18 +24,10 @@ class Blog extends React.Component {
   render() {
     return (
       <section className="section_blog">
-        <header >Blog</header>
-          <Post />
-          {this.state.posts.map(post => {
-            return (
-
-              <div className="article" key={post.id} >
-              <h4> {post.title}  </h4>
-              <p> {post.content}</p>
-              </div>
-            )
-          }
-          )}
+        <header >[ Blog ]</header>
+          {this.state.posts.map( post => {
+            return (<Post post={post} key={post.id}/>)
+          })}
       </section>
     )
   }

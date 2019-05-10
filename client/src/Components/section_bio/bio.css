@@ -1,0 +1,22 @@
+/* ---------------------------------------
+---------------------------------------BIO
+--------------------------------------- */
+.section_bio {
+  background: #FFFFFF;
+  text-align: center;
+}
+.section_bio header {
+  font-family: Ailerons;
+  font-size: 3em;
+  color: #FF0000;
+  letter-spacing: 0.4px;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+}
+.section_bio p {
+  font-family: Ailerons;
+  font-size: 1em;
+  color: #4A4A4A;
+  letter-spacing: 0.4px;
+  text-align: center;
+}

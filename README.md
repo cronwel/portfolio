@@ -1,25 +1,16 @@
-# README
+# Portfolio
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is my Portfolio website
 
-Things you may want to cover:
+####Dates
 
-* Ruby version
+Created: 
 
-* System dependencies
+Published:
 
-* Configuration
+Host: Heroku
 
-* Database creation
+Domain: Hover
 
-* Database initialization
+URL: 
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# portfolio

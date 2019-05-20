@@ -5,7 +5,6 @@ module Api::V1
     # GET /posts
     def index
       @posts = Post.all
-
       render json: @posts
     end
 
@@ -19,7 +18,7 @@ module Api::V1
       @post = Post.new(post_params)
 
       if @post.save
-        render json: @post, status: :created, location: @post
+        render json: @post, status: :created
       else
         render json: @post.errors, status: :unprocessable_entity
       end
@@ -37,6 +36,11 @@ module Api::V1
     # DELETE /posts/1
     def destroy
       @post.destroy
+      if @post.destroy
+        head :no_content, status: :ok
+      else
+        render json @post.errors, status: unprocessable_entity
+      end
     end
 
     private

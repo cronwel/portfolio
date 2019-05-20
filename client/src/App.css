@@ -7,8 +7,12 @@
   grid-template-columns: .5fr .5fr;
   width: 100vw;
   height: 100vh;
+  grid-gap: 5px;
+  /* background-color: black; */
 }
-
-header:hover {
-  letter-spacing: 2px;
+.container_grid:nth-child(2) {
+  transition: grid-template-columns 1000ms ease-in;
+}
+.container_grid:nth-child(2):hover {
+  grid-template-columns: 1fr ;
 }

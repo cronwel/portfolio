@@ -4,7 +4,9 @@
 .section_bio {
   background: #FFFFFF;
   text-align: center;
+  transition: width 1000ms ease-in-out;
 }
+
 .section_bio header {
   font-family: Ailerons;
   font-size: 3em;
@@ -20,3 +22,10 @@
   letter-spacing: 0.4px;
   text-align: center;
 }
+
+/* Animation------------------------
+ */
+
+ .section_bio:hover {
+   width: 100%;
+ }

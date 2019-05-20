@@ -12,6 +12,10 @@
    letter-spacing: 0.4px;
    text-align: center;
    text-shadow: 0 2px 4px #FF0000;
+   transition: text-shadow 400ms ease-in-out, 
+ }
+ .section_tools header:hover {
+  text-shadow: 0 5px 7px #FFFFFF;
  }
  .section_tools p {
    font-family: Avenir;

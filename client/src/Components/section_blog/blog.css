@@ -3,7 +3,7 @@ div {
 }
 
 .article {
-  font: 12px;
+  font: normal normal normal large Helvetica;
 }
 
 
@@ -11,20 +11,25 @@ div {
 --------------------------------------Blog
 --------------------------------------- */
 .section_blog {
+  display: grid;
   background: #D8D8D8;
 }
-
 .section_blog header{
   font-family: Ailerons;
   font-size: 48px;
   color: #000000;
   letter-spacing: 0.4px;
   text-align: center;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.50);
-}
+  text-shadow: 0 2px 4px #000000;
+  transition: text-shadow 400ms ease-in-out;
 
-.section_blog header:hover {
-  grid-column: span 2;
+}
+.section_blog header:hover{
+  text-shadow: 0 5px 7px #FF0000;
+}
+.section_blog header:active{
+  transform: translate(-200px -200px);
+  width: -200px;
 }
 .section_blog p {
   font-family: Avenir;
@@ -33,3 +38,4 @@ div {
   letter-spacing: 0.09px;
   text-align: center;
 }
+

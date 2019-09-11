@@ -14,15 +14,18 @@ div {
   display: grid;
   background: #D8D8D8;
 }
-.section_blog header{
+.section_blog header a {
   font-family: Ailerons;
-  font-size: 48px;
+  font-size: 3vh;
   color: #000000;
   letter-spacing: 0.4px;
   text-align: center;
   text-shadow: 0 2px 4px #000000;
   transition: text-shadow 400ms ease-in-out;
-
+  text-decoration: none;
+  text-decoration-line: none;
+  -moz-text-decoration-style: none;
+  -moz-text-decoration-color: none;
 }
 .section_blog header:hover{
   text-shadow: 0 5px 7px #FF0000;

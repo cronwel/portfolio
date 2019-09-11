@@ -7,12 +7,17 @@
   grid-template-columns: .5fr .5fr;
   width: 100vw;
   height: 100vh;
-  grid-gap: 5px;
   /* background-color: black; */
+
 }
-.container_grid:nth-child(2) {
-  transition: grid-template-columns 1000ms ease-in;
+
+/* --------------------ANIMATION DECLARATIONS */
+
+body {
+  text-decoration: none;
+  text-decoration-line: none;
+  -moz-text-decoration-style: none;
+  -moz-text-decoration-color: none;
 }
-.container_grid:nth-child(2):hover {
-  grid-template-columns: 1fr ;
-}
+/* ANIMATIONS-------------------------- */
+

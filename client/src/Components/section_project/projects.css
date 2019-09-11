@@ -4,15 +4,20 @@
 .section_projects {
   background: #FF0000;
   text-align: center;
+  transition: width 2300ms ease, transform 2300ms ease;
 }
 
-.section_projects header {
+.section_projects header a {
   font-family: Ailerons;
-  font-size: 3em;
+  font-size: 3vh;
   color: #FFFFFF;
   letter-spacing: 0.2px;
   text-align: center;
   text-shadow: 0 2px 5px #000000;
+  text-decoration: none;
+  text-decoration-line: none;
+  -moz-text-decoration-style: none;
+  -moz-text-decoration-color: none;
 }
 
 .section_projects p {

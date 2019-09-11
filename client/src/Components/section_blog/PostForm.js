@@ -1,10 +1,10 @@
 import React from 'react';
 
-const PostForm = ({ListNewEntry = f => f}) => {
-  let title, content
+const PostForm = ({props, listNewEntry = f => f}) => {
+  let title, content;
   const submit = e => {
     e.preventDefault()
-    ListNewEntry(title.value, content.value)
+    listNewEntry(title.value, content.value)
     title.value= ''
     content.value = ''
     title.focus()
@@ -19,7 +19,7 @@ const PostForm = ({ListNewEntry = f => f}) => {
         ref={input => content = input }
         placeholder="Content..." required
       />
-      <button> Add Post</button>
+      <button onClick={listNewEntry}> Add Post</button>
     </form>
   )
 }

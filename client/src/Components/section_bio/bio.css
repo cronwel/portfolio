@@ -7,13 +7,17 @@
   transition: width 1000ms ease-in-out;
 }
 
-.section_bio header {
+.section_bio header a {
   font-family: Ailerons;
-  font-size: 3em;
+  font-size: 3vh;
   color: #FF0000;
   letter-spacing: 0.4px;
   text-align: center;
   text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+  text-decoration: none;
+  text-decoration-line: none;
+  -moz-text-decoration-style: none;
+  -moz-text-decoration-color: none;
 }
 .section_bio p {
   font-family: Ailerons;
@@ -26,6 +30,6 @@
 /* Animation------------------------
  */
 
- .section_bio:hover {
+ .section_bio:hover header {
    width: 100%;
  }

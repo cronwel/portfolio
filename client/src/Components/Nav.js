@@ -1,18 +1,20 @@
 import React from 'react';
-
+import Bio from './section_bio/Bio';
+import Tools from './section_tools/Tools';
+import Projects from './section_project/Projects';
+import Blog from "./section_blog/Blog";
 class Nav extends React.Component {
 render() {
-    return (
-        <nav className="nav_v1"> 
-            <ul className="headers">
-                <li><a href="www.google.com">Bio</a></li>
-                <li>Projects</li>
-                <li>Interests</li>
-                <li>Blog</li>
-            </ul>
-
-        </nav>
-    )
+  return (
+    <div className="App">
+      <main className="container_grid">
+        <Bio/>
+        <Projects/>
+        <Tools/>
+        <Blog/>
+      </main>
+    </div>
+  )
 }}
 
 export default Nav;

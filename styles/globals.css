@@ -1,0 +1,39 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Ailerons", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.primaryStyle {
+  height: 100vh;
+}
+
+.gridsetup {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+.gridsetup div {
+  border: 0.1px solid black;
+  width: 20%;
+}
+
+h1,
+h2 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
